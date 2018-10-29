@@ -1,0 +1,13 @@
+package ru.zgys.sabbathtime
+
+import org.springframework.boot.autoconfigure.SpringBootApplication
+import org.springframework.boot.runApplication
+import org.springframework.cache.annotation.EnableCaching
+
+@SpringBootApplication
+@EnableCaching
+class SabbathTimeApplication
+
+fun main(args: Array<String>) {
+    runApplication<SabbathTimeApplication>(*args)
+}
